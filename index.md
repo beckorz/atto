@@ -1,4 +1,4 @@
-## About atto
+## atto
 
 atto is "Desktop Scrap Tool".
 
@@ -49,7 +49,7 @@ It can also be used to take a screenshot of the screen.
 
 ### Config
 
-```yaml config.yml
+```yaml
 # Main
 main:
   hotkey:
@@ -71,6 +71,11 @@ main:
 
 ### Third party software
 - [jbeder/yaml-cpp: A YAML parser and emitter in C++](https://github.com/jbeder/yaml-cpp)
+
+
+## Donate
+- [Zenn.dev](https://zenn.dev/beck/books/bd85de79f5c1e1378ba0)
+- [Amazon.co.jp gift card to beckorz+atto@gmail.com](https://www.amazon.co.jp/gp/product/B004N3APDM)
 
 
 ### Known issues

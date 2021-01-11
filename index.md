@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+## About atto
 
-You can use the [editor on GitHub](https://github.com/beckorz/atto/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+atto is "Desktop Scrap Tool".
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This software allows you to cut out a part of the screen with a single button and display it at top most.
+This can be used when you want to refer to a part of another application while working.
+It can also be used to take a screenshot of the screen.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Requirement
+- Windows 7 Later (x86,x64)
+- Visual Studio 2015 C++ Runtime
 
-```markdown
-Syntax highlighted code block
+    ```
+    The program can't start because MSVCP140.dll is missing from your computer. Try reinstalling the program to fix this problem.
+    ```
 
-# Header 1
-## Header 2
-### Header 3
+- [Download Visual C++ Redistributable for Visual Studio 2015 from Official Microsoft Download Center](https://www.microsoft.com/en-US/download/details.aspx?id=48145)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Download
+- [atto latest download](https://github.com/beckorz/atto/releases/latest)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+## Usage
+
+1. Unzip atto.zip
+2. Run atto.exe (It will reside in the task tray.)
+3. When you want to cut the screen, press <kbd>Ctrl</kbd>+<kbd>1</kbd> key to enter the scrapping state.
+   At this time, the mouse cursor will change to indicate that it is ready for scrapping.
+    * The default setting for the shortcut keys is <kbd>Ctrl</kbd>+<kbd>1</kbd>.
+      If it is being used by other software, it cannot be used.
+4. Drag the desired area of the desired part with the 🖱mouse in the Scrapification Preparation state.
+   The dragged area will be created as a scrap.
+5. Scrapped windows can also be moved around the scrap with the mouse.If the scrap window is in the way, you can reduce or enlarge the scrap window size by double-clicking it. You can also exit the scrap window by using the right-click menu or the <kbd>ESC</kbd> key.
+6. If you want to quit atto, you can do so from the right-click menu in the task tray.
+
+
+### Other feature
+- Compact size  
+    Double-click on the scrap window to instantly switch to a compact size.
+    You can cancel it by double-clicking it again.
+    Use this when the scrap window is in the way.
+
+- Moving the Scrap Window  
+    It can be moved by dragging with the mouse, but can also be moved with the cursor keys.
+    In combination with the <kbd>shift</kbd> key, the amount of movement will change.
+
+
+### Config
+
+```yaml config.yml
+# Main
+main:
+  hotkey:
+    modifiers: 0x2
+    vk_key: 0x31
+  captureConfig:
+    borderColor: "#FF3333"
+  scrapWindow:
+    # When active
+    borderSizeActive: 3
+    borderColorActive: "#3399CC"
+    # When deactive
+    borderSizeDeactive: 3
+    borderColorDeactive: "#3399CC"
+    # Minimum size
+    minimumSize: 50
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Third party software
+- [jbeder/yaml-cpp: A YAML parser and emitter in C++](https://github.com/jbeder/yaml-cpp)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/beckorz/atto/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Known issues
+- In Windows 7 or later, the snap function brings the scrap window to the top of the screen, and the size of the scrap window becomes smaller.    
+  → Double-click the scrap window several times to resize it and it will return to its original size.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

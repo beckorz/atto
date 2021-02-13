@@ -3,3 +3,5 @@ description: Desktop Scrap Tool
 show_downloads: false
 google_analytics: G-ME16CJ9NNM
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap

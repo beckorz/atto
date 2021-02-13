@@ -8,7 +8,7 @@ It can also be used to take a screenshot of the screen.
 
 
 ### Requirement
-- Windows 7 Later (x86,x64)
+- Windows XP Later (x86,x64)
 - Visual Studio 2015 C++ Runtime
 
     ```
@@ -45,28 +45,6 @@ It can also be used to take a screenshot of the screen.
 - Moving the Scrap Window  
     It can be moved by dragging with the mouse, but can also be moved with the cursor keys.
     In combination with the <kbd>shift</kbd> key, the amount of movement will change.
-
-
-### Config
-
-```yaml
-# Main
-main:
-  hotkey:
-    modifiers: 0x2
-    vk_key: 0x31
-  captureConfig:
-    borderColor: "#FF3333"
-  scrapWindow:
-    # When active
-    borderSizeActive: 3
-    borderColorActive: "#3399CC"
-    # When deactive
-    borderSizeDeactive: 3
-    borderColorDeactive: "#3399CC"
-    # Minimum size
-    minimumSize: 50
-```
 
 
 ### Third party software

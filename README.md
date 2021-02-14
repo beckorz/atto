@@ -1,5 +1,7 @@
 # atto
 
+[atto](https://beckorz.github.io/atto/)
+
 デスクトップスクラップツール
 
 ボタン一つで画面の一部を切り抜き、最前面に表示させておくソフトです。
@@ -18,7 +20,7 @@ P.S. 今は閉鎖され入手困難な、あるツールにインスパイアさ
 
 
 ## Requirement
-- Windows 7 Later (x86,x64)
+- Windows XP Later (x86,x64)
 - Visual Studio 2015 C++ Runtime
 
     ```
@@ -27,6 +29,10 @@ P.S. 今は閉鎖され入手困難な、あるツールにインスパイアさ
 
     のようなエラーメッセージが表示された場合、MicrosoftからRuntimeをインストールして下さい。
     [Download Visual Studio 2015 の Visual C++ 再頒布可能パッケージ from Official Microsoft Download Center](https://www.microsoft.com/ja-JP/download/details.aspx?id=48145)
+
+
+## Download
+- [atto latest download](https://github.com/beckorz/atto/releases/latest)
 
 
 ## Usage
@@ -42,10 +48,12 @@ P.S. 今は閉鎖され入手困難な、あるツールにインスパイアさ
 4. スクラップ化準備状態で好きな箇所の好きな範囲を🖱マウスでドラッグします。
    ドラッグした範囲がスクラップ(切り抜き)として生成されます。
    ![](./images/scrap.gif)
-5. スクラップされたウィンドウは、マウスでスクラップの移動も可能で、スクラップウィンドウが邪魔の場合、ダブルクリックでスクラップウィンドウサイズを縮小・拡大が行えます。また、スクラップウィンドウを終了する場合は、右クリックメニューの終了か、<kbd>ESC</kbd>キーで終了できます。
+5. スクラップされたウィンドウは、マウスでスクラップの移動も可能で、スクラップウィンドウが邪魔な場合、ダブルクリックでスクラップウィンドウサイズを縮小・拡大が行えます。また、スクラップウィンドウを終了する場合は、右クリックメニューの終了か、<kbd>ESC</kbd>キーで終了できます。
 6. 必要に応じて、タスクトレイのメニューのオプションから設定変更可能です。
 7. attoを終了する場合は、タスクトレイの右クリックメニューの終了から終了可能です。
    ![](./images/mainmenu.gif)
+
+- アンインストール時には、レジストリを使用しておりませんので、そのまま削除して結構です。
 
 
 ## Other feature
@@ -58,36 +66,28 @@ P.S. 今は閉鎖され入手困難な、あるツールにインスパイアさ
     <kbd>shift</kbd>キーとの組み合わせで移動量が変化します。
 
 
-## Config
-
-```yaml config.yml
-# メイン設定
-main:
-  # ホットキー
-  hotkey:
-    modifiers: 0x2
-    vk_key: 0x31
-  # キャプチャー設定
-  captureConfig:
-    borderColor: "#FF3333"
-  # スクラップウィンドウ設定
-  scrapWindow:
-    # アクティブ 枠サイズと色
-    borderSizeActive: 3
-    borderColorActive: "#3399CC"
-    # ディアクティブ 枠サイズと色
-    borderSizeDeactive: 3
-    borderColorDeactive: "#3399CC"
-    # 小さくする時のサイズ
-    minimumSize: 50
-```
-
-
 ## Third party software
 - [jbeder/yaml-cpp: A YAML parser and emitter in C++](https://github.com/jbeder/yaml-cpp)
+
+
+## License
+本ソフトは、どなたでも無料でお使いいただけるフリーソフトですが、開発継続の為に以下で寄付を受け付けております。
+
+- [Zenn.dev](https://zenn.dev/beck/) で開発サポート
+- [Amazon.co.jp](https://www.amazon.co.jp/dp/BT00DHI8G4) にてギフト券受取先 [beckorz+atto@gmail.com] で支援
 
 
 ## Known issues
 - Windows 7 以降のスナップ機能で、画面上部にスクラップウィンドウを持っていくと、スクラップウィンドウのサイズが小さくなってしまう。  
   → スクラップウィンドウを何度かダブルクリックして、サイズを変えると元のサイズに戻ります。
+
+
+## Thanks
+- 元作者様
+- うっちー
+
+
+## Author
+beck
+mail: beckorz+atto@gmail.com
 

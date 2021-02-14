@@ -51,7 +51,9 @@ It can also be used to take a screenshot of the screen.
 - [jbeder/yaml-cpp: A YAML parser and emitter in C++](https://github.com/jbeder/yaml-cpp)
 
 
-## Donate
+## License
+This software is free for anyone to use, but we are accepting donations below to continue development.
+
 - [Zenn.dev](https://zenn.dev/beck/books/bd85de79f5c1e1378ba0)
 - [Amazon.co.jp gift card to beckorz+atto@gmail.com](https://www.amazon.co.jp/gp/product/B004N3APDM)
 
@@ -59,4 +61,14 @@ It can also be used to take a screenshot of the screen.
 ### Known issues
 - In Windows 7 or later, the snap function brings the scrap window to the top of the screen, and the size of the scrap window becomes smaller.    
   → Double-click the scrap window several times to resize it and it will return to its original size.
+
+
+## Thanks
+- Original author
+- うっちー
+
+
+## Author
+beck
+mail: beckorz+atto@gmail.com
 

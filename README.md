@@ -72,6 +72,7 @@ P.S. 今は閉鎖され入手困難な、あるツールにインスパイアさ
 
 ## License
 本ソフトは、どなたでも無料でお使いいただけるフリーソフトですが、開発継続の為に以下で寄付を受け付けております。
+尚、現在クローズドソースソフトウェアです。
 
 - [Zenn.dev](https://zenn.dev/beck/) で開発サポート
 - [Amazon.co.jp](https://www.amazon.co.jp/dp/BT00DHI8G4) にてギフト券受取先 [beckorz+atto@gmail.com] で支援

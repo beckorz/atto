@@ -67,11 +67,6 @@ This software is free for anyone to use, but we are accepting donations below to
 - [Amazon.co.jp gift card to beckorz+atto@gmail.com](https://www.amazon.co.jp/gp/product/B004N3APDM)
 
 
-### Known issues
-- In Windows 7 or later, the snap function brings the scrap window to the top of the screen, and the size of the scrap window becomes smaller.    
-  → Double-click the scrap window several times to resize it and it will return to its original size.
-
-
 ### Thanks
 - Original author
 - うっちー
